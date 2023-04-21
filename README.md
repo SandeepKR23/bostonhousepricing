@@ -10,8 +10,14 @@
 Create a new environment
 
 conda create -p boston_house python==3.7 -y
-
+pip install -r requirements.txt
 
 git:
 
 git config user.name "Sandeep"
+git config user.email ""
+git add requirements.txt  
+
+git add .    - to add all
+git commit -m "This commit includes requiremnts.txt and readme file"
+git push origin main
